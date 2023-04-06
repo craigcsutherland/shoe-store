@@ -2,26 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Shoe Store</title>
+    <title>The Rare Sole Co.</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Rare Shoes</h1>
+      <h1 class="script-font">The Rare Sole Co.</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Womens</a></li>
+          <li><a href="#">Mens</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Brands</a>
+            <div class="dropdown-content">
+              <a href="#">Nike</a>
+              <a href="#">New Balance</a>
+              <a href="#">Yeezy</a>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
+      <div class="delivery-info">
+        <p>
+          Free delivery on all orders | Estimated delivery time: 3-5 business
+          days
+        </p>
+      </div>
       <section class="products">
         <article class="product" data-id="1">
-          <h3>Product 1</h3>
-          <img src="https://via.placeholder.com/150" />
-          <p>£29.99</p>
+          <h3>Nike MAG Back to the Future (2016)</h3>
+          <img src="images/back-to-the.jpeg" />
+          <p>£1999</p>
           <label for="product-1-size">Size:</label>
           <select id="product-1-size">
             <option value="6">6</option>
@@ -33,9 +52,9 @@
           <button>Add to Cart</button>
         </article>
         <article class="product" data-id="2">
-          <h3>Product 2</h3>
-          <img src="https://via.placeholder.com/150" />
-          <p>£39.99</p>
+          <h3>New Balance 990v3</h3>
+          <img src="images/NB.jpeg" />
+          <p>£239</p>
           <label for="product-2-size">Size:</label>
           <select id="product-2-size">
             <option value="6">6</option>
@@ -47,9 +66,9 @@
           <button>Add to Cart</button>
         </article>
         <article class="product" data-id="3">
-          <h3>Product 3</h3>
-          <img src="https://via.placeholder.com/150" />
-          <p>£49.99</p>
+          <h3>Air Jordan 2 OG</h3>
+          <img src="images/jordan.jpeg" />
+          <p>£1999</p>
           <label for="product-3-size">Size:</label>
           <select id="product-3-size">
             <option value="6">6</option>
@@ -61,9 +80,9 @@
           <button>Add to Cart</button>
         </article>
         <article class="product" data-id="4">
-          <h3>Product 4</h3>
-          <img src="https://via.placeholder.com/150" />
-          <p>£29.99</p>
+          <h3>Scarr's Pizza's x Nike Air Force 1</h3>
+          <img src="images/scarrs-pizza-nike-air-force-1-low.jpeg" />
+          <p>£2999</p>
           <label for="product-1-size">Size:</label>
           <select id="product-1-size">
             <option value="6">6</option>
@@ -75,9 +94,9 @@
           <button>Add to Cart</button>
         </article>
         <article class="product" data-id="5">
-          <h3>Product 5</h3>
-          <img src="https://via.placeholder.com/150" />
-          <p>£9.99</p>
+          <h3>Air Force 1 x Off-White</h3>
+          <img src="images/Off-White-Air-Force-1.jpeg" />
+          <p>£399</p>
           <label for="product-1-size">Size:</label>
           <select id="product-1-size">
             <option value="6">6</option>
@@ -89,9 +108,9 @@
           <button>Add to Cart</button>
         </article>
         <article class="product" data-id="6">
-          <h3>Product 6</h3>
-          <img src="https://via.placeholder.com/150" />
-          <p>£29.99</p>
+          <h3>Yeezy Boost 350 V2</h3>
+          <img src="images/Yeezy.jpeg" />
+          <p>£499</p>
           <label for="product-1-size">Size:</label>
           <select id="product-1-size">
             <option value="6">6</option>
