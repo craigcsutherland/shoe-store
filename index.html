@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rare Shoes</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="products">
+        <article class="product" data-id="1">
+          <h3>Product 1</h3>
+          <img src="https://via.placeholder.com/150" />
+          <p>£29.99</p>
+          <label for="product-1-size">Size:</label>
+          <select id="product-1-size">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button>Add to Cart</button>
+        </article>
+        <article class="product" data-id="2">
+          <h3>Product 2</h3>
+          <img src="https://via.placeholder.com/150" />
+          <p>£39.99</p>
+          <label for="product-2-size">Size:</label>
+          <select id="product-2-size">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button>Add to Cart</button>
+        </article>
+        <article class="product" data-id="3">
+          <h3>Product 3</h3>
+          <img src="https://via.placeholder.com/150" />
+          <p>£49.99</p>
+          <label for="product-3-size">Size:</label>
+          <select id="product-3-size">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button>Add to Cart</button>
+        </article>
+        <article class="product" data-id="4">
+          <h3>Product 4</h3>
+          <img src="https://via.placeholder.com/150" />
+          <p>£29.99</p>
+          <label for="product-1-size">Size:</label>
+          <select id="product-1-size">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button>Add to Cart</button>
+        </article>
+        <article class="product" data-id="5">
+          <h3>Product 5</h3>
+          <img src="https://via.placeholder.com/150" />
+          <p>£9.99</p>
+          <label for="product-1-size">Size:</label>
+          <select id="product-1-size">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button>Add to Cart</button>
+        </article>
+        <article class="product" data-id="6">
+          <h3>Product 6</h3>
+          <img src="https://via.placeholder.com/150" />
+          <p>£29.99</p>
+          <label for="product-1-size">Size:</label>
+          <select id="product-1-size">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button>Add to Cart</button>
+        </article>
+      </section>
+      <section class="cart" style="display: none">
+        <h2>Cart</h2>
+        <ul></ul>
+        <p>Total: £0.00</p>
+        <button>Checkout</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <div class="container">
+      <h4>Contact Us</h4>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </footer>
+</html>
